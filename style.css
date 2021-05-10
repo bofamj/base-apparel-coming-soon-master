@@ -1,0 +1,97 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	max-width: 1440px;
+	font-family: 'Josefin Sans', sans-serif;
+	Font: 16px;
+}
+.continer {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 100%, 98%));
+}
+.contant {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex: 2;
+	left: 10vw;
+	padding-left: 15vw;
+	padding-right: 15vw;
+	background-image: url(./images/bg-pattern-desktop.svg);
+	opacity: 0.7;
+}
+.img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	height: 100vh;
+	width: 40vw;
+}
+.img img {
+	width: 40vw;
+	height: 100vh;
+}
+.logo {
+	top: 10vh;
+}
+.pragraph {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.hero,
+.herooo {
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 60px;
+	letter-spacing: 15px;
+}
+.hero {
+	color: hsl(0, 36%, 70%);
+	font-weight: 300;
+}
+.para {
+	padding-top: 20px;
+	line-height: 30px;
+	color: hsl(0, 36%, 70%);
+	font-weight: bold;
+}
+.email {
+	display: flex;
+	position: relative;
+	height: 100px;
+	margin-top: -70px;
+}
+.sub {
+	width: 400px;
+	height: 50px;
+	border-radius: 40px;
+	border: 2px solid hsl(0, 80%, 86%);
+	opacity: 0.3;
+}
+.submet {
+	height: 50px;
+	width: 80px;
+	border-radius: 40px;
+	position: absolute;
+	top: 1%;
+	left: 85%;
+	border: 2px solid hsl(0, 80%, 86%);
+	background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+	cursor: pointer;
+}
+.text {
+	margin-top: -150px;
+	margin-left: 30px;
+	color: red;
+	opacity: 0.5;
+}
